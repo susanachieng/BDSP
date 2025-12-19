@@ -6,7 +6,7 @@
 .header {
   min-height: 100vh;
   width: 100%;
-  background-image: url(images.jpg);
+  background-image: url(images/images.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
@@ -269,7 +269,7 @@ h3 {
 .cta {
   margin: 100px auto;
   width: 80%;
-  background-image: url(ima.jpg);
+  background-image: url(images/ima.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -361,7 +361,7 @@ footer {
 .sub-header {
   height: 95vh;
   width: 100%;
-  background-image: url(im11.jpg);
+  background-image: url(images/im11.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -403,7 +403,7 @@ footer {
 .subb-header {
   height: 130vh;
   width: 100%;
-  background-image: url(images02.jpg);
+  background-image: url(images/images02.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -499,7 +499,7 @@ footer {
 .subbb-header {
   height: 95vh;
   width: 100%;
-  background-image: url(images0.jpg);
+  background-image: url(images/images0.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -670,7 +670,7 @@ footer {
 .su-header {
   height: 100vh;
   width: 100%;
-  background-image: url(ims.jpg);
+  background-image: url(images/ims.jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
@@ -721,6 +721,18 @@ footer {
 .donate-box:hover {
   transform: translateY(-5px);
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+.donate-box input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+}
+.donate-box button {
+  padding: 10px 15px;
+  background-color: #00a86b;
+  color: white;
+  border: none;
+  cursor: pointer;
 }
 
 .donate-box i {
